@@ -1,0 +1,24 @@
+.Alamin-footer{
+    @apply bg-[#263640] pt-[64px] pb-[42px]
+}
+.footer-row{
+    @apply flex justify-between items-center
+}
+.single-footer-text h4{
+    @apply text-[14px] text-[#FFFFFF] font-roboto font-bold mb-[10px]
+}
+.single-footer-text p{
+    @apply text-[16px] text-[#FFFFFF] font-roboto font-medium w-[157px]
+}
+.footer-line{
+    @apply h-[2px] w-[full] mt-[68px] bg-[#929A9F] mb-[40px]
+}
+.footer-end-line{
+    @apply w-[2px] h-[16px] bg-[#929A9F] ml-[8px] mr-[16px]
+}
+    .footer-end-row{
+        @apply flex items-center
+    }
+    .footer-end-row h3{
+        @apply text-[14px] font-roboto font-medium text-[#fff]
+    }

@@ -1,0 +1,27 @@
+.banner-row {
+    @apply flex justify-between  mt-[96px]
+}
+.banner-text{
+    @apply mt-[196px]
+}
+.banner-text h2{
+    @apply text-[14px] font-roboto font-bold text-[#929A9F] mb-[15px]
+}
+.banner-text h1{
+    @apply text-[32px] font-roboto font-bold text-[#263640] w-[470px] mb-[15px]
+}
+.banner-text p{
+    @apply text-[16px] font-roboto font-semibold text-[#929A9F] w-[427px] mb-[38px]
+}
+.button-banner{
+    @apply w-[205px] bg-brand-color flex gap-[16px]  items-center justify-center py-[8px] 
+}
+.button-banner a{
+    @apply text-[16px] font-roboto font-bold text-[#FFFFFF]
+}
+.button-banner span{
+    @apply text-[20px] font-roboto font-bold text-[#FFFFFF]
+}
+.banner-img img{
+    @apply w-[593px]
+}

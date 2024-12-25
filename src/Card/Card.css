@@ -1,0 +1,22 @@
+.card-head h2{
+    @apply text-[24px] font-roboto font-bold text-[#263640]
+}
+.card-head p{
+    @apply text-[16px] font-roboto font-medium text-[#929A9F] w-[520px] mt-[16px]
+}
+.single-card-row{
+    @apply flex justify-between
+}
+.single-card img{
+    @apply w-[312px] ml-[-30px]
+}
+.single-card h2{
+    @apply text-[20px] font-roboto font-medium text-[#263640] w-[312px]
+}
+.single-card p{
+    @apply w-[312px] text-[16px] font-roboto font-medium text-[#263640]  mt-[24px] mb-[24px]
+}
+.single-card .button {
+    @apply text-[16px] font-roboto font-medium text-brand-color w-[312px] mt-[24px] flex gap-[8px] items-center
+}
+

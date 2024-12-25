@@ -1,0 +1,18 @@
+.mach-text h3{
+    @apply text-[14px] text-[#929A9F] font-bold font-roboto mb-[16px]
+}
+.mach-text h1{
+    @apply text-[32px] text-[#263640] font-bold font-roboto mb-[24px]
+}
+.Mach-row{
+    @apply flex justify-between items-center
+}
+.mach-text{
+    @apply mt-[195px]
+}
+.mach-text p{
+    @apply text-[16px] text-[#929A9F] font-medium font-roboto w-[327px] mb-[32px]
+}
+.mach-text .button{
+    @apply w-[130px] h-[30px] bg-brand-color flex justify-center items-center text-[16px] text-[#fff] font-roboto font-medium gap-[16px]
+}

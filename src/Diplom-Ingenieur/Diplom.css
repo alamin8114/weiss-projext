@@ -1,0 +1,22 @@
+.diplom-row{
+    @apply bg-[url(./images/dieter-img1.png)] h-screen w-full bg-no-repeat bg-center bg-cover mt-[168px]
+}
+.diplom-col{
+    @apply pl-[120px] pt-[40px]
+}
+.diplom-row h3{
+    @apply text-[14px] text-[#929A9F] font-roboto font-bold mb-[24px]
+}
+.diplom-row h1{
+    @apply text-[32px] w-[494px] text-[#FFFFFF] font-roboto font-bold mb-[24px]
+}
+.diplom-row p{
+    @apply text-[16px] w-[422px] text-[#FFFFFF] font-roboto font-medium
+    mb-[56px]
+}
+.line-diplom{
+    @apply h-[2px] w-[494px] bg-[#929A9F] mb-[24px]
+}
+.diplom-row .button{
+    @apply flex text-[white] font-roboto font-medium text-[16px] flex gap-[8px] items-center
+}
