@@ -2,16 +2,16 @@
     @apply text-[14px] text-[#929A9F] font-bold font-roboto mb-[16px]
 }
 .mach-text h1{
-    @apply text-[32px] text-[#263640] font-bold font-roboto mb-[24px]
+    @apply text-[32px] text-[#263640] font-bold font-roboto md:mb-[24px] mb-[16px]
 }
 .Mach-row{
-    @apply flex justify-between items-center
+    @apply flex md:justify-between md:items-center items-start flex-col-reverse md:flex-row p-2 md:p-0
 }
 .mach-text{
-    @apply mt-[195px]
+    @apply xl:mt-[195px] mt-[30px]
 }
 .mach-text p{
-    @apply text-[16px] text-[#929A9F] font-medium font-roboto w-[327px] mb-[32px]
+    @apply text-[16px] text-[#929A9F] font-medium font-roboto w-full md:w-[327px] md:mb-[32px] mb-[16px]
 }
 .mach-text .button{
     @apply w-[130px] h-[30px] bg-brand-color flex justify-center items-center text-[16px] text-[#fff] font-roboto font-medium gap-[16px]

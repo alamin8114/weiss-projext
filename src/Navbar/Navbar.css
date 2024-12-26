@@ -1,8 +1,11 @@
 .Nav-row{
-    @apply flex justify-between items-center pt-[64px]
+    @apply flex justify-between items-center sm:pt-[10px] md:pt-[40px] p-2
 }
 .nav-logo{
-    @apply w-[135px]
+    @apply md:w-[135px] w-[80px]
+}
+.menu-nav{
+    @apply hidden md:block
 }
 .menu-nav ul{
     @apply flex gap-[40px]
@@ -11,9 +14,12 @@
     @apply text-[16px] font-roboto hover:text-brand-color font-semibold hover:border-b-2 hover:border-brand-color transition-all duration-[0.4s]
 }
 .navbutton{
-    @apply pt-[8px] pl-[24px] pb-[8px] pr-[24px] hover:bg-brand-color bg-[black]  flex justify-center items-center gap-[16px] text-[16px] font-semibold font-roboto text-[#fff] transition-all duration-[.3s]
+    @apply  lg:py-[8px] py-[3px] px-[10px] lg:px-[24px] hover:bg-brand-color bg-[black]  flex justify-center items-center gap-[16px] text-[12px] md:text-[16px] font-semibold font-roboto text-[#fff] transition-all duration-[.3s]
 }
-.menu-nav ul .dwopdown-menu .downNav{
-    @apply hidden absolute flex flex-col gap-1 bg-[#FFCFCF] w-[80px] text-center pb-3 
+.menu-nav .sideMenu{
+    @apply flex gap-[10px] rounded text-[#fff] flex-col
+    bg-[#b4a3a3] px-5 py-1 mt-1 justify-center items-center 
 }
-
+.side-menu-hidden{
+    @apply hidden absolute  group-hover:block transition-all duration-[0.3s]
+}

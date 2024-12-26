@@ -1,17 +1,17 @@
 .banner-row {
-    @apply flex justify-between  mt-[96px]
+    @apply flex md:justify-between mt-[0px] md:mt-[40px] lg:mt-[96px] flex-col-reverse md:flex-row md:p-0 p-2
 }
 .banner-text{
-    @apply mt-[196px]
+    @apply md:mt-[80px] lg:mt-[196px] mt-[20px]
 }
 .banner-text h2{
     @apply text-[14px] font-roboto font-bold text-[#929A9F] mb-[15px]
 }
 .banner-text h1{
-    @apply text-[32px] font-roboto font-bold text-[#263640] w-[470px] mb-[15px]
+    @apply text-[24px] md:text-[32px] font-roboto font-bold text-[#263640] md:w-[470px] w-full mb-[15px]
 }
 .banner-text p{
-    @apply text-[16px] font-roboto font-semibold text-[#929A9F] w-[427px] mb-[38px]
+    @apply text-[16px] font-roboto font-semibold text-[#929A9F] w-full md:w-[427px] mb-[38px]
 }
 .button-banner{
     @apply w-[205px] bg-brand-color flex gap-[16px]  items-center justify-center py-[8px] 
@@ -23,5 +23,5 @@
     @apply text-[20px] font-roboto font-bold text-[#FFFFFF]
 }
 .banner-img img{
-    @apply w-[593px]
+    @apply md:w-[593px] w-[100%]
 }

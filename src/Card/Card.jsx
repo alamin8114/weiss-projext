@@ -6,6 +6,7 @@ const Card = () => {
     <>
     <div className="alaminCard">
         <div className="container">
+            <div className="card-row">
             <div className="card-head">
                 <h2>Unsere Dienstleistungen</h2>
                 <p>Dienstleistung ist für unsere Mitarbeiter Herausforderung, das ist die Stärke unseres Teams. Ganz gleich, ob Verkehrsplanungen, Ver- und Ent­sorgung, Lärmschutz oder Spezialgebiete – wir bieten Rundum-Service mit:</p>
@@ -38,6 +39,7 @@ const Card = () => {
                         <span><IoIosArrowForward/></span>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div>

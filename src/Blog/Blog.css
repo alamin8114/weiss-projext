@@ -2,16 +2,16 @@
     @apply text-[32px] text-[#263640] font-roboto font-bold
 }
 .blog-row{
-    @apply flex justify-between items-end mt-[80px]
+    @apply flex md:justify-between flex-col md:flex-row md:items-end items-center mt-[40px] md:mt-[80px] p-2 md:p-0
 }
 .blog-head p{
-    @apply text-[16px] text-[#263640] font-roboto font-medium w-[488px] mt-[16px]
+    @apply  text-[16px] md:text-[16px] text-[#263640] font-roboto font-medium w-full md:w-[488px] mt-[16px]
 }
 .button-blog{
-    @apply w-[151px] h-[40px] bg-brand-color text-[#fff] text-[16px] font-roboto font-medium flex justify-center items-center
+    @apply w-[151px] h-[40px] bg-brand-color text-[#fff] text-[16px] font-roboto font-medium flex justify-center items-center mt-[20px] md:mt-0
 }
 .blog-card h1{
-    @apply text-[14px] text-[#929A9F] font-roboto font-bold
+    @apply text-[14px] w-full text-[#929A9F] font-roboto font-bold
 }
 .single-card-blog{
     @apply mt-[32px]
@@ -20,14 +20,14 @@
     @apply mt-[80px]
 }
 .single-card-blog h1{
-    @apply text-[20px] text-[#263640] font-roboto font-medium w-[361px]
+    @apply text-[20px] text-[#263640] font-roboto font-medium w-full md:w-[361px]
 }
 .single-card-blog p{
-    @apply text-[16px] text-[#929A9F] font-roboto font-medium w-[361px] mt-[20px]
+    @apply text-[16px] text-[#929A9F] font-roboto font-medium w-full md:w-[361px] mt-[20px]
 }
 .single-card-blog .button{
     @apply flex text-[16px] text-[#FF9900] items-center gap-[8px] font-medium mt-[20px]
 }
 .blog-single-card-row{
-    @apply flex justify-between 
+    @apply flex md:justify-between justify-center items-center flex-col md:flex-row p-2
 }

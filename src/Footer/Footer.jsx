@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="footer-logo">
                     <img src="images/Weiss Logo.png" alt="Footer-img" />
                 </div>
-                <div className="footer-text flex gap-[144px]">
+                <div className="footer-text flex md:gap-[144px] justify-between">
                     <div className="single-footer-text">
                     <h4>Geschäftsführer</h4>
                     <p>Beratender Ingenieur
@@ -27,7 +27,6 @@ const Footer = () => {
                 <h3>Impressum</h3>
                 <div className="footer-end-line"></div>
                 <h3>Datenschutz</h3>
-
             </div>
         </div>
     </div>

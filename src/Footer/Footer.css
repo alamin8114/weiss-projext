@@ -1,23 +1,23 @@
 .Alamin-footer{
-    @apply bg-[#263640] pt-[64px] pb-[42px]
+    @apply bg-[#263640] pt-[40px] md:pt-[64px] pb-[42px]
 }
 .footer-row{
-    @apply flex justify-between items-center
+    @apply flex md:justify-between items-center flex-col md:flex-row gap-4 md:gap-0 p-2 md:p-0
 }
 .single-footer-text h4{
     @apply text-[14px] text-[#FFFFFF] font-roboto font-bold mb-[10px]
 }
 .single-footer-text p{
-    @apply text-[16px] text-[#FFFFFF] font-roboto font-medium w-[157px]
+    @apply text-[16px] text-[#FFFFFF] font-roboto font-medium w-full md:w-[157px]
 }
 .footer-line{
-    @apply h-[2px] w-[full] mt-[68px] bg-[#929A9F] mb-[40px]
+    @apply h-[2px] w-[full] mt-[30px] md:mt-[68px] bg-[#929A9F] mb-[40px]  md:p-0
 }
 .footer-end-line{
-    @apply w-[2px] h-[16px] bg-[#929A9F] ml-[8px] mr-[16px]
+    @apply w-[2px] h-[16px] bg-[#929A9F] ml-[8px] mr-[16px]  
 }
     .footer-end-row{
-        @apply flex items-center
+        @apply flex items-center p-2 md:p-0
     }
     .footer-end-row h3{
         @apply text-[14px] font-roboto font-medium text-[#fff]
